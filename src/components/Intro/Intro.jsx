@@ -30,8 +30,12 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Smaran Shaha</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+           I did pursue a Bachelor of Science in
+computer science engineering from Daffodil International University. To
+achieve the best possible position as a web developer with both honesty
+and hard work in an organization where I can utilize my skills and
+experiences in maintaining and managing the existing system and expand
+the services through creativity.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
