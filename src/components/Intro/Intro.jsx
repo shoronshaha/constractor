@@ -9,7 +9,7 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import Gmail from "../../img/gmail.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -43,9 +43,9 @@ the services through creativity.
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+        <a href="https://github.com/shoronshaha?tab=repositories" target="_blank">  <img src={Github} alt="" /></a>
+        <a href="https://www.linkedin.com/in/smaran-shaha/" target="_blank"><img src={LinkedIn} alt="" /></a>
+          <a href="mailto: smaranshaha@gmail.com"><img src={Gmail} alt="" /></a>
         </div>
       </div>
       {/* right image side */}
