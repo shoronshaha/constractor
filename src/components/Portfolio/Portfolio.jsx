@@ -5,7 +5,6 @@ import "swiper/css";
 import Hammer from "../../img/hammer.PNG";
 import Smart from "../../img/smart.PNG";
 import Physicians from "../../img/Physicians.PNG";
-import Stylist from "../../img/stylist.PNG";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -32,9 +31,7 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={Physicians} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={Stylist} alt="" />
-        </SwiperSlide>
+       
       </Swiper>
     </div>
   );
